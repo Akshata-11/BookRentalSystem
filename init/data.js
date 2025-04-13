@@ -12,7 +12,7 @@ const sampleListing=
             {
               title: "Desert Dome Stay",
               description: "An eco-dome in the middle of the desert with stunning night skies.",
-              image: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1571423190i/41057294.jpg",
+              image: "https://blog-cdn.reedsy.com/directories/gallery/248/large_65b0ae90317f7596d6f95bfdd6131398.jpg",
               author: "Zara Ali",
               price: 140,
               review: "Very peaceful and surreal. Stargazing was the best part."
@@ -21,6 +21,7 @@ const sampleListing=
               title: "Countryside Cottage",
               description: "Quaint cottage surrounded by fields and fresh air. A quiet place to unwind.",
               image: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1571423190i/41057294.jpg",
+              
               author: "Noah Bennett",
               price: 110,
               review: "Adorable little spot with beautiful surroundings."
