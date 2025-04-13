@@ -1,0 +1,45 @@
+<% layout("/layouts/boilerplate") %>
+<body>
+    <div class="row">
+        <div class="col-8 offset-2">
+        <br/><br/>
+    <h1>Edit Book</h1>
+    <form  method="POST" action="/listings/<%=listing._id%>?_method=PUT"> <!--intall method_override to convert post to put-->
+
+        <div class="mb-3">
+            <label for="title" class="form-label">Title</label>
+        <input type="text" name="listing[title]"  value="<%= listing.title%>" class="form-control">
+        </div>
+
+        <div class="mb-3">
+            <label for="title" class="form-label">Author</label>
+        
+        <input type="text" name="listing[author]" value="<%= listing.author%>" class="form-control" required>
+        <div class="valid-feedback">
+          Title looks good!
+        </div>
+      </div>
+    
+      <div class="mb-3">
+        <label for="description" class="form-label">Description</label>
+        <textarea type="text" name="listing[description]" class="form-control"> <%=listing.description%> </textarea>
+    </div>
+        
+
+        <div class="mb-3">
+            <label for="price" class="form-label">Price</label>
+        <input type="number" name="listing[price]"  value="<%= listing.price%>" class="form-control">
+    </div>
+      
+
+
+        <div class="mb-3">
+            <label for="image" class="form-label">Upload Listing Image</label>
+        <input  name="listing[image]" value="<%= listing.image%>" type="text" class="form-control">
+    </div>
+        
+        
+
+    <button class="btn btn-dark add-btn">Edit</button>
+    </form>
+</body>

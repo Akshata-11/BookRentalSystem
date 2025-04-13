@@ -1,57 +1,77 @@
-const sampleListing=
-    [
-        
-            {
-              title: "Charming Treehouse Retreat",
-              description: "Stay among the trees in this magical treehouse equipped with modern comforts.",
-              image: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1571423190i/41057294.jpg",
-              author: "Liam Parker",
-              price: 180,
-              review: "Unique experience! Felt like a childhood dream come true."
-            },
-            {
-              title: "Desert Dome Stay",
-              description: "An eco-dome in the middle of the desert with stunning night skies.",
-              image: "https://blog-cdn.reedsy.com/directories/gallery/248/large_65b0ae90317f7596d6f95bfdd6131398.jpg",
-              author: "Zara Ali",
-              price: 140,
-              review: "Very peaceful and surreal. Stargazing was the best part."
-            },
-            {
-              title: "Countryside Cottage",
-              description: "Quaint cottage surrounded by fields and fresh air. A quiet place to unwind.",
-              image: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1571423190i/41057294.jpg",
-              
-              author: "Noah Bennett",
-              price: 110,
-              review: "Adorable little spot with beautiful surroundings."
-            },
-            {
-              title: "Ski Lodge Cabin",
-              description: "Ideal for winter sports enthusiasts, located just minutes from the slopes.",
-              image: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1571423190i/41057294.jpg",
-              author: "Olivia Carter",
-              price: 220,
-              review: "Super cozy with great access to skiing and snowboarding."
-            },
-            {
-              title: "Lakeview Tiny Home",
-              description: "Tiny but mighty—this lakeview home packs charm and practicality.",
-              image: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1571423190i/41057294.jpg",
-              author: "Ethan Hughes",
-              price: 95,
-              review: "Small space, big vibes. Loved sipping coffee with that view."
-            },
-            {
-              title: "Historic City Loft",
-              description: "Live like a local in this stylish loft in the historic district.",
-              image: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1571423190i/41057294.jpg",
-              author: "Isabella Moore",
-              price: 175,
-              review: "Location is unbeatable. Clean and artsy interior."
-            },
-            
-          
-    ] ;
+const sampleListing = [
+  {
+    "title": "God Of Small Things",
+    "description": "A haunting and poetic novel about family, politics, and forbidden love.",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1318966691i/37819.jpg",
+    "author": "Arundhati Roy",
+    "price": 555
+  },
+  {
+    "title": "1984",
+    "description": "A dystopian classic exploring surveillance and totalitarianism.",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1318966691i/37819.jpg",
+    "author": "George Orwell",
+    "price": 480
+  },
+  {
+    "title": "The Handmaid's Tale",
+    "description": "A chilling tale of a theocratic society that subjugates women.",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1318966691i/37819.jpg",
+    "author": "Margaret Atwood",
+    "price": 510
+  },
+  {
+    "title": "Half of a Yellow Sun",
+    "description": "A gripping story of war and love in 1960s Nigeria.",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1318966691i/37819.jpg",
+    "author": "Chimamanda Ngozi Adichie",
+    "price": 445
+  },
+  {
+    "title": "Kafka on the Shore",
+    "description": "A surreal coming-of-age story woven with metaphysical twists.",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1318966691i/37819.jpg",
+    "author": "Haruki Murakami",
+    "price": 570
+  },
+  {
+    "title": "Beloved",
+    "description": "A powerful, poetic novel about the legacy of slavery.",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1318966691i/37819.jpg",
+    "author": "Toni Morrison",
+    "price": 615
+  },
+  {
+    "title": "The Namesake",
+    "description": "A tender tale of cultural identity and immigrant experience.",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1318966691i/37819.jpg",
+    "author": "Jhumpa Lahiri",
+    "price": 420
+  },
+  {
+    "title": "Never Let Me Go",
+    "description": "A haunting dystopian novel about memory and loss.",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1318966691i/37819.jpg",
+    "author": "Kazuo Ishiguro",
+    "price": 505
+  },
+  {
+    "title": "White Teeth",
+    "description": "A witty and sprawling tale of identity and multiculturalism.",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1318966691i/37819.jpg",
+    "author": "Zadie Smith",
+    "price": 465
+  },
+  {
+    "title": "The Book Thief",
+    "description": "A beautifully told story set during WWII, narrated by Death.",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1318966691i/37819.jpg",
+    "author": "Markus Zusak",
+    "price": 530
+  }
 
-    module.exports={data:sampleListing};
+  
+]
+;
+
+module.exports = { data: sampleListing };

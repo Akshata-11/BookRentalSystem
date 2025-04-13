@@ -1,24 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BookRentalSystem</title>
-</head>
+<% layout("/layouts/boilerplate") %>
 <body>
-    
+    <div class="row">
+  <div class="col-8 offset-2">
+  <br/><br/>
+    <h1>Add New Book</h1>
     <form  method="POST" action="/listings">
-        <input type="text" name="title" placeholder="Book Name">
-        <br>
-        <textarea type="text" name="description" placeholder="Enter Description"></textarea>
-        <br>
-        <input type="number" name="price" placeholder="Enter Price">
-        <br>
-        <input type="text" name="image" placeholder="Enter Image URL">
-        <br>
-        <input type="text" name="title" placeholder="Book Name">
-        <br>
-        <BUtton >add</BUtton>
+        <div class="mb-3">
+            <label for="title" class="form-label">Title</label>
+        
+        <input type="text" name="listing[title]" placeholder="Add Catchy Title" class="form-control" required>
+          <div class="valid-feedback">
+            Title looks good!
+          </div>
+        </div>
+        
+        <div class="mb-3">
+            <label for="title" class="form-label">Author</label>
+        
+        <input type="text" name="listing[author]" placeholder="Add Author Name" class="form-control" required>
+          <div class="valid-feedback">
+            Title looks good!
+          </div>
+        </div>
+       
+        <div class="mb-3">
+            
+            <label for="description" class="form-label">Description</label>
+        <textarea type="text" name="listing[description]"  class="form-control" required></textarea>
+        <div class="invalid-feedback">
+            Description should be short
+          </div>
+        </div>
+      
+    
+        <div class="mb-3 ">
+            <label for="price" class="form-label">Price</label>
+        <input type="number" name="listing[price]"  placeholder="Enter Price" class="form-control">
+        </div>
+    
+        
+        <div class="mb-3">
+          <label for="image" class="form-label">Upload Listing Image</label>
+        <input  name="listing[image]" type="text"  class="form-control">
+        </div>
+        
+
+        
+
+        <button class="btn btn-dark add-btn">Add</button>
     </form>
 </body>
-</html>

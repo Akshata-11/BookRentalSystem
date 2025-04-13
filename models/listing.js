@@ -8,9 +8,7 @@ const listingSchema = new Schema({
     
   },
   description: String,
-  image: {
-    type:String
-  },
+  image: String,
   author:String,
   price: Number,
   
