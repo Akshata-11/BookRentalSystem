@@ -1,0 +1,92 @@
+[
+  {
+    _id: ObjectId('67fc2ce1012288e39ee8e1e7'),
+    title: 'God Of Small Things',
+    description: ' A haunting and poetic novel about family, politics, and forbidden love. ',
+    image: 'https://blog-cdn.reedsy.com/directories/gallery/256/large_753131580521b5596c3e0499958150f7.jpg',
+    author: 'Arundhati Roy',
+    price: 555,
+    __v: 0
+  },
+  {
+    _id: ObjectId('67fc2ce1012288e39ee8e1e8'),
+    title: '1984',
+    description: ' A dystopian classic exploring surveillance and totalitarianism. ',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYWS5Avr24IO21-ZMRXFD4hsb3XW-MCzBmzQ&s',
+    author: 'George Orwell',
+    price: 480,
+    __v: 0
+  },
+  {
+    _id: ObjectId('67fc2ce1012288e39ee8e1e9'),
+    title: "The Handmaid's Tale",
+    description: ' A chilling tale of a theocratic society that subjugates women. ',
+    image: 'https://images.booksense.com/images/818/490/9780385490818.jpg',
+    author: 'Margaret Atwood',
+    price: 510,
+    __v: 0
+  },
+  {
+    _id: ObjectId('67fc2ce1012288e39ee8e1ea'),
+    title: 'Half of a Yellow Sun',
+    description: ' A gripping story of war and love in 1960s Nigeria. ',
+    image: 'https://upload.wikimedia.org/wikipedia/en/f/f1/HalfYellowSun.JPG',
+    author: 'Chimamanda Ngozi Adichie',
+    price: 445,
+    __v: 0
+  },
+  {
+    _id: ObjectId('67fc2ce1012288e39ee8e1eb'),
+    title: 'Kafka on the Shore',
+    description: ' A surreal coming-of-age story woven with metaphysical twists. ',
+    image: 'https://images.squarespace-cdn.com/content/v1/52fbe871e4b060243dd758d6/1708086697211-EVK8HD3N1AH5ZGZDARXY/Screenshot+2024-02-16+at+7.31.08+AM.png?format=500w',
+    author: 'Haruki Murakami',
+    price: 570,
+    __v: 0
+  },
+  {
+    _id: ObjectId('67fc2ce1012288e39ee8e1ec'),
+    title: 'Beloved',
+    description: ' A powerful, poetic novel about the legacy of slavery. ',
+    image: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1722944318i/6149.jpg',
+    author: 'Toni Morrison',
+    price: 615,
+    __v: 0
+  },
+  {
+    _id: ObjectId('67fc2ce1012288e39ee8e1ed'),
+    title: 'The Namesake',
+    description: ' A tender tale of cultural identity and immigrant experience. ',
+    image: 'https://m.media-amazon.com/images/I/71t19fqA5SL._AC_UF1000,1000_QL80_.jpg',
+    author: 'Jhumpa Lahiri',
+    price: 420,
+    __v: 0
+  },
+  {
+    _id: ObjectId('67fc2ce1012288e39ee8e1ee'),
+    title: 'Never Let Me Go',
+    description: ' A haunting dystopian novel about memory and loss. ',
+    image: 'https://m.media-amazon.com/images/I/716qHj8vH7L.jpg',
+    author: 'Kazuo Ishiguro',
+    price: 505,
+    __v: 0
+  },
+  {
+    _id: ObjectId('67fc2ce1012288e39ee8e1ef'),
+    title: 'White Teeth',
+    description: ' A witty and sprawling tale of identity and multiculturalism. ',
+    image: 'https://m.media-amazon.com/images/I/61KWbdQRGXL._AC_UF1000,1000_QL80_.jpg',
+    author: 'Zadie Smith',
+    price: 465,
+    __v: 0
+  },
+  {
+    _id: ObjectId('67fcf36a65b7b33757807d10'),
+    title: 'Charming Treehouse Retreat',
+    description: ' Charming Treehouse Retreat ',
+    image: 'https://images.squarespace-cdn.com/content/v1/5fc7868e04dc9f2855c99940/32f738d4-e4b9-4c61-bfc0-e813699cdd3c/laura-barrett-illustrator-beloved-girls-book-cover.jpg',
+    author: 'Liam Brooks',
+    price: 555,
+    __v: 0
+  }
+]
